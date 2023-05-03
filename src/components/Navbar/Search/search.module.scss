@@ -1,0 +1,25 @@
+.form {
+  position: relative;
+  width: 350px;
+  border: 1px solid var(--gray_100);
+  border-radius: 5px;
+}
+.input {
+  padding: 8px;
+  width: 100%;
+  border-radius: inherit;
+}
+.close {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  font-size: 25px;
+  // width: 20px;
+  // height: 20px;
+  line-height: 16px;
+  cursor: pointer;
+  border-radius: 70%;
+  padding: 2px;
+  background: var(--gray_100);
+}
