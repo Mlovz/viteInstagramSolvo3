@@ -2,9 +2,9 @@ import React from "react";
 import { IconTypes } from "./IconTypes";
 import cls from "./icon.module.scss";
 
-const Icon = ({ className, type }) => {
+const Icon = ({ className, type, onClick }) => {
   return (
-    <div className={`${cls.icon} ${className || ""}`}>
+    <div onClick={onClick} className={`${cls.icon} ${className || ""}`}>
       {IconTypes.get(type)}
     </div>
   );
